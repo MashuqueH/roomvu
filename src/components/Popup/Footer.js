@@ -8,11 +8,13 @@ const useStyles = makeStyles(() => ({
     display: "flex",
     width: "100%",
     justifyContent: "center",
+    marginTop: "2%",
   },
   text: {
     fontSize: 14,
     fontWeight: "400",
-    textDecoration: "dotted",
+    textDecoration: "underline",
+    textDecorationStyle: "dotted",
   },
 }));
 
